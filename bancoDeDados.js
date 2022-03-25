@@ -1,34 +1,4 @@
-/*function getpessoas() {
-    return {
-        id: 1,
-        nome:"maria",
-        cpf:897895874,
-        dataNascimento:14/03/2000,
-        cep:58046725,
-        endereco:"rua abc",
-        telefone:988546523
-    },
-    {
-        id: 2,
-        nome:"joao",
-        cpf:897895174,
-        dataNascimento:14/03/2080,
-        cep:58046755,
-        endereco:"rua gume",
-        telefone:98858452 
-    },
-    {
-        id: 3,
-        nome:"felippe",
-        cpf:89602895174,
-        dataNascimento:05/11/2080,
-        cep:55606755,
-        endereco:"rua cabral",
-        telefone:985236458
-    }
-}
-*/
-const cadastro = {
+ const cadastro = {
     _id:1,
     get id(){ return this._id++ }
 }
